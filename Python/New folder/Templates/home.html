@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+{% block content %}
+    {% for post in posts %}
+        <article class="content-section mb-4 p-3 border rounded">
+  <div>
+    <div class="article-metadata mb-2">
+      <a class="me-2" href="#">Allama</a>
+      <small class="text-muted">20 1 2024</small>
+    </div>
+    <h2 class="h4">Book 1</h2>
+    <p>Kash ful majub</p>
+  </div>
+</article>
+
+    {% endfor %}
+{% endblock content %}
