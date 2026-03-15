@@ -34,6 +34,7 @@ def calculator():
             print("Result",Divide(num1,num2))
         else:
             print("invalid input")
+# Now Gui code by using thinker
 def thinker():
     def click(button_text):
         if button_text=="=":
